@@ -19,7 +19,7 @@ print(my_list[1:4])  # Output: [20, 30, 40]
 my_list.append(60)  # Append 60 to the end of the list
 my_list.insert(1, 10)  # Insert 10 at index 1
 print("List after insertion:", my_list)
-
+########################################################################
 
 #tuple
 my_tuple = (10, 20, 30, 40, 50)
