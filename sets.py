@@ -17,19 +17,19 @@ set_a = {1, 2, 3}
 
 set_b = {3, 4, 5}
 
-#union
+#union is the set of all elements that are in either set_a or set_b.    
 union_set = set_a.union(set_b)
 print(union_set)  # Output: {1, 2, 3, 4, 5}
 
-#intersection
+#intersection is the set of elements that are common to both set_a and set_b.
 intersection_set = set_a.intersection(set_b)
 print(intersection_set)  # Output: {3}
 
-#difference
+#difference is the set of elements that are in set_a but not in set_b.
 difference_set = set_a.difference(set_b)
 print(difference_set)  # Output: {1, 2}
 
-#symmetric difference
+#symmetric difference is the set of elements that are in either set_a or set_b but not in both.
 symmetric_difference_set = set_a.symmetric_difference(set_b)
 print(symmetric_difference_set)  # Output: {1, 2, 4, 5}
 
